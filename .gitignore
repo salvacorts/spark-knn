@@ -26,3 +26,9 @@ __pycache__/
 python/build/
 python/dist/
 *.egg-info/
+
+# Vscode
+.vscode
+.metals
+.bsp
+.devcontainer

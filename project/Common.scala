@@ -12,11 +12,11 @@ object Common {
     organization in ThisBuild := "com.github.saurfang",
     javacOptions ++= Seq("-source", "1.8", "-target", "1.8"),
     scalacOptions ++= Seq("-target:jvm-1.8", "-deprecation", "-feature"),
-    //git.useGitDescribe := true,
+    git.useGitDescribe := true,
     git.baseVersion := "0.0.1",
     parallelExecution in test := false,
     updateOptions := updateOptions.value.withCachedResolution(true),
-    sparkVersion := "3.0.1",
+    sparkVersion := "3.1.2",
     sparkComponents += "mllib",
     spIgnoreProvided := true
   )

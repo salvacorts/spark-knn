@@ -8,7 +8,7 @@ lazy val root = Project("spark-knn", file(".")).
 lazy val core = knnProject("spark-knn-core").
   settings(
     name := "spark-knn",
-    spName := "saurfang/spark-knn",
+    //spName := "saurfang/spark-knn",
     credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials"),
     licenses += "Apache-2.0" -> url("http://opensource.org/licenses/Apache-2.0")
   ).

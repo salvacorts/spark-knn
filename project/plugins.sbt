@@ -14,7 +14,7 @@ addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.8.0"
   excludeAll ExclusionRule(organization = "com.danieltrinh"))
 libraryDependencies += "org.scalariform" %% "scalariform" % "0.1.8"
 
-resolvers += "bintray-spark-packages" at "https://dl.bintray.com/spark-packages/maven/"
+resolvers += "bintray-spark-packages" at "https://repos.spark-packages.org"
 addSbtPlugin("org.spark-packages" % "sbt-spark-package" % "0.2.6")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-scalafix" % "0.9.4")
