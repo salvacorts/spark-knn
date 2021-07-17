@@ -9,7 +9,7 @@ import scala.reflect.macros.Context
 
 object Common {
   val commonSettings = Seq(
-    organization in ThisBuild := "com.github.saurfang",
+    organization in ThisBuild := "com.github.salvacorts",
     javacOptions ++= Seq("-source", "1.8", "-target", "1.8"),
     scalacOptions ++= Seq("-target:jvm-1.8", "-deprecation", "-feature"),
     git.useGitDescribe := true,
